@@ -1,7 +1,7 @@
 const app = require('express')()
         bodyParser = require('body-parser')
         cors = require('cors')
-        port = process.env.port || 9999
+        port = process.env.port || 6969
         defaultCtrl = require('./controllers/default');
 
 app.use(bodyParser.json());
